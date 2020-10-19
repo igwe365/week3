@@ -9,6 +9,7 @@
     <?php
                 $diceOne = rand(1,6);
                 $diceTwo = rand(1,6);
+                
                 if ($diceOne ==6 || $diceTwo==6){
                     
                     echo " You rolled a $diceOne and a $diceTwo, you WIN!!!";
